@@ -1,4 +1,4 @@
-package com.pranavvarshan.fitness_app
+package com.nipix.fitnessapp
 
 import io.flutter.embedding.android.FlutterActivity
 
