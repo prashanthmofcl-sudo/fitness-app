@@ -1,0 +1,39 @@
+name: fitness_app
+description: "A production-quality fitness application."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  go_router: ^17.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/onboarding_track_everything.png
+    - assets/images/onboarding_personalized_plans.png
+    - assets/images/onboarding_goal_progress.png
+    - assets/images/forgot_password_illustration.png
+    - assets/images/assessment_male.png
+    - assets/images/assessment_female.png
+    - assets/images/assessment_goals.png
+    - assets/images/goal_weight_loss.png
+    - assets/images/goal_weight_gain.png
+    - assets/images/goal_keep_fit.png
+    - assets/images/goal_improve_performance.png
+    - assets/images/fitness_plan_nutrition.png
+    - assets/images/home_dashboard_icons.png
+    - assets/images/home_workout_hero.png
+    - assets/images/home_push_ups.png
+    - assets/images/home_dumbbell_press.png
+    - assets/images/home_pull_ups.png
+    - assets/images/workout_plan_exercises.png
